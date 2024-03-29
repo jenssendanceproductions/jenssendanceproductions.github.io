@@ -2,4 +2,4 @@
 
 The Webpage code for Jenssen Dance Productions.
 
-Link: www.jenssendanceproductions.github.io
+Link: [jenssendanceproductions.github.io](https://jenssendanceproductions.github.io/)
