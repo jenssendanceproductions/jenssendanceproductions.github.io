@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jenssen Dance Productions</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>Jenssen Dance Productions</h1>
-        <p>NB! Placeholder for webpage!</p>
-        <p>Contact info: jenssen.dance.productions@gmail.com</p>
-    </body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./static/style.css" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Jenssen Dance Productions</title>
+
+  </head>
+
+  <body style="">
+    
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+
+            <h1 class="text-center display-4">Jenssen Dance Productions</h1>
+
+            <p class="text-center lead">
+              Business inquiries: <a href="mailto:jenssen.dance.productions@gmail.com">jenssen.dance.productions@gmail.com</a>
+            </p>
+
+          </div>
+
+        </div>
+
+        <footer class="container mx-auto p-2 text-center">
+          <!--<div class="d-flex justify-content-between"> -->
+          <!-- <p>Email: info@company.com</p> <p></p> -->
+          <!-- <p>Org. No.: XXX XXX XXX</p> -->
+          <p>&copy; <span id="year"></span> <a href="https://jenssenmddmproductions.com/">Jenssen MDDM Productions</a>. All Rights Reserved.</p>
+          <script>
+              // JavaScript to dynamically set the current year
+              document.getElementById('year').textContent = new Date().getFullYear();
+          </script>
+          <!--</div>-->
+          </footer>
+
+      </div>
+    </div>
+
+  </body>
 </html>
